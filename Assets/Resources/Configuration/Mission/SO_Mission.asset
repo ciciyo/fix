@@ -1,0 +1,532 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67cd3f603f3d68b49a7896384c1a808d, type: 3}
+  m_Name: SO_Mission
+  m_EditorClassIdentifier: 
+  so_default: {fileID: 11400000, guid: d51b78c0945e1cd40a346d502e84e32a, type: 2}
+  maps:
+  - id: 1
+    name: Area A
+    description: Area A description
+    missions:
+    - id: 1
+      name: Kill the Soldier
+      description: bunuh 50 prajurit tanpa terluka
+      missionType: 2
+      difficulty: 1.43
+      isLocked: 0
+      isComplete: 0
+      rewards:
+      - id: 1
+        name: Item A
+        description: 
+        inv_id: 0
+        amount: 8
+        icon: {fileID: 0}
+        inventoryType: 0
+      - id: 2
+        name: Item B
+        description: 
+        inv_id: 0
+        amount: 2
+        icon: {fileID: 0}
+        inventoryType: 0
+      - id: 3
+        name: Item C
+        description: 
+        inv_id: 0
+        amount: 8
+        icon: {fileID: 0}
+        inventoryType: 0
+      subMissionDatas:
+      - id: 1
+        name: Sub Mission 1
+        isComplete: 0
+      - id: 2
+        name: Sub Mission 2
+        isComplete: 0
+      - id: 3
+        name: Sub Mission 3
+        isComplete: 0
+    - id: 2
+      name: Save your Team
+      description: prajurit musuh menyerang desa, penduduk harus di evakuasi ke tempat
+        yang lebih aman. lindungi kendaraan tim dari serangan musuh.
+      missionType: 4
+      difficulty: 2.41
+      isLocked: 0
+      isComplete: 0
+      rewards:
+      - id: 1
+        name: Item D
+        description: 
+        inv_id: 0
+        amount: 8
+        icon: {fileID: 0}
+        inventoryType: 0
+      - id: 2
+        name: Item B
+        description: 
+        inv_id: 0
+        amount: 2
+        icon: {fileID: 0}
+        inventoryType: 0
+      - id: 3
+        name: Item A
+        description: 
+        inv_id: 0
+        amount: 8
+        icon: {fileID: 0}
+        inventoryType: 0
+      subMissionDatas: []
+    - id: 3
+      name: Kill 'em up
+      description: semua penduduk berhasil di evakuasi. kamu sekarang bisa mengeluarkan
+        kekuatan penuhmu. bunuh semua prajurit yang telah menyerang desa
+      missionType: 5
+      difficulty: 3.02
+      isLocked: 0
+      isComplete: 1
+      rewards:
+      - id: 1
+        name: Item E
+        description: 
+        inv_id: 0
+        amount: 8
+        icon: {fileID: 0}
+        inventoryType: 0
+      - id: 2
+        name: Item F
+        description: 
+        inv_id: 0
+        amount: 2
+        icon: {fileID: 0}
+        inventoryType: 0
+      - id: 3
+        name: Item G
+        description: 
+        inv_id: 0
+        amount: 8
+        icon: {fileID: 0}
+        inventoryType: 0
+      subMissionDatas: []
+    - id: 4
+      name: Time to Revenge
+      description: Saatnya untuk memberikan mereka peringatan untuk tindakan mereka.
+        tanam 10 bom di area musuh di titik yang telah ditentukan
+      missionType: 6
+      difficulty: 4.37
+      isLocked: 0
+      isComplete: 0
+      rewards:
+      - id: 1
+        name: Item A
+        description: 
+        inv_id: 0
+        amount: 8
+        icon: {fileID: 0}
+        inventoryType: 0
+      - id: 2
+        name: Item F
+        description: 
+        inv_id: 0
+        amount: 2
+        icon: {fileID: 0}
+        inventoryType: 0
+      - id: 3
+        name: Item B
+        description: 
+        inv_id: 0
+        amount: 8
+        icon: {fileID: 0}
+        inventoryType: 0
+      subMissionDatas: []
+    - id: 5
+      name: Who is the Boss?
+      description: 'tunjukan siapa bos yang sebenarnya. bunuh komandan perang di
+        base pertahanan musuh untuk membuat prajurit musuh tunduk. lakukan dengan
+        hati-hati karena dia diajaga oleh prajuritnya. '
+      missionType: 0
+      difficulty: 5
+      isLocked: 0
+      isComplete: 0
+      rewards:
+      - id: 1
+        name: Item x
+        description: 
+        inv_id: 0
+        amount: 8
+        icon: {fileID: 0}
+        inventoryType: 0
+      - id: 2
+        name: Item D
+        description: 
+        inv_id: 0
+        amount: 2
+        icon: {fileID: 0}
+        inventoryType: 0
+      - id: 3
+        name: Item E
+        description: 
+        inv_id: 0
+        amount: 8
+        icon: {fileID: 0}
+        inventoryType: 0
+      subMissionDatas: []
+    - id: 6
+      name: Rescue Hostage
+      description: Selamatkan sandera dari tangan para penjahat!
+      missionType: 7
+      difficulty: 0
+      isLocked: 1
+      isComplete: 1
+      rewards:
+      - id: 1
+        name: Item x
+        description: 
+        inv_id: 0
+        amount: 8
+        icon: {fileID: 0}
+        inventoryType: 0
+      - id: 2
+        name: Item D
+        description: 
+        inv_id: 0
+        amount: 2
+        icon: {fileID: 0}
+        inventoryType: 0
+      - id: 3
+        name: Item E
+        description: 
+        inv_id: 0
+        amount: 8
+        icon: {fileID: 0}
+        inventoryType: 0
+      subMissionDatas: []
+  - id: 2
+    name: Area B
+    description: Area B description
+    missions:
+    - id: 1
+      name: Kill the Soldier
+      description: bunuh 50 prajurit tanpa terluka
+      missionType: 2
+      difficulty: 0
+      isLocked: 1
+      isComplete: 0
+      rewards:
+      - id: 1
+        name: Item A
+        description: 
+        inv_id: 0
+        amount: 8
+        icon: {fileID: 0}
+        inventoryType: 0
+      - id: 2
+        name: Item B
+        description: 
+        inv_id: 0
+        amount: 2
+        icon: {fileID: 0}
+        inventoryType: 0
+      - id: 3
+        name: Item C
+        description: 
+        inv_id: 0
+        amount: 8
+        icon: {fileID: 0}
+        inventoryType: 0
+      subMissionDatas: []
+    - id: 2
+      name: Save your Team
+      description: prajurit musuh menyerang desa, penduduk harus di evakuasi ke tempat
+        yang lebih aman. lindungi kendaraan tim dari serangan musuh.
+      missionType: 4
+      difficulty: 0
+      isLocked: 1
+      isComplete: 0
+      rewards:
+      - id: 1
+        name: Item D
+        description: 
+        inv_id: 0
+        amount: 8
+        icon: {fileID: 0}
+        inventoryType: 0
+      - id: 2
+        name: Item B
+        description: 
+        inv_id: 0
+        amount: 2
+        icon: {fileID: 0}
+        inventoryType: 0
+      - id: 3
+        name: Item A
+        description: 
+        inv_id: 0
+        amount: 8
+        icon: {fileID: 0}
+        inventoryType: 0
+      subMissionDatas: []
+    - id: 3
+      name: Kill 'em up
+      description: semua penduduk berhasil di evakuasi. kamu sekarang bisa mengeluarkan
+        kekuatan penuhmu. bunuh semua prajurit yang telah menyerang desa
+      missionType: 5
+      difficulty: 0
+      isLocked: 1
+      isComplete: 0
+      rewards:
+      - id: 1
+        name: Item E
+        description: 
+        inv_id: 0
+        amount: 8
+        icon: {fileID: 0}
+        inventoryType: 0
+      - id: 2
+        name: Item F
+        description: 
+        inv_id: 0
+        amount: 2
+        icon: {fileID: 0}
+        inventoryType: 0
+      - id: 3
+        name: Item G
+        description: 
+        inv_id: 0
+        amount: 8
+        icon: {fileID: 0}
+        inventoryType: 0
+      subMissionDatas: []
+    - id: 4
+      name: Time to Revenge
+      description: Saatnya untuk memberikan mereka peringatan untuk tindakan mereka.
+        tanam 10 bom di area musuh di titik yang telah ditentukan
+      missionType: 6
+      difficulty: 0
+      isLocked: 1
+      isComplete: 0
+      rewards:
+      - id: 1
+        name: Item A
+        description: 
+        inv_id: 0
+        amount: 8
+        icon: {fileID: 0}
+        inventoryType: 0
+      - id: 2
+        name: Item F
+        description: 
+        inv_id: 0
+        amount: 2
+        icon: {fileID: 0}
+        inventoryType: 0
+      - id: 3
+        name: Item B
+        description: 
+        inv_id: 0
+        amount: 8
+        icon: {fileID: 0}
+        inventoryType: 0
+      subMissionDatas: []
+    - id: 5
+      name: Who is the Boss?
+      description: 'tunjukan siapa bos yang sebenarnya. bunuh komandan perang di
+        base pertahanan musuh untuk membuat prajurit musuh tunduk. lakukan dengan
+        hati-hati karena dia diajaga oleh prajuritnya. '
+      missionType: 0
+      difficulty: 0
+      isLocked: 1
+      isComplete: 0
+      rewards:
+      - id: 1
+        name: Item x
+        description: 
+        inv_id: 0
+        amount: 8
+        icon: {fileID: 0}
+        inventoryType: 0
+      - id: 2
+        name: Item D
+        description: 
+        inv_id: 0
+        amount: 2
+        icon: {fileID: 0}
+        inventoryType: 0
+      - id: 3
+        name: Item E
+        description: 
+        inv_id: 0
+        amount: 8
+        icon: {fileID: 0}
+        inventoryType: 0
+      subMissionDatas: []
+  - id: 3
+    name: Area C
+    description: Area C description
+    missions:
+    - id: 1
+      name: Kill the Soldier
+      description: bunuh 50 prajurit tanpa terluka
+      missionType: 2
+      difficulty: 0
+      isLocked: 1
+      isComplete: 0
+      rewards:
+      - id: 1
+        name: Item A
+        description: 
+        inv_id: 0
+        amount: 8
+        icon: {fileID: 0}
+        inventoryType: 0
+      - id: 2
+        name: Item B
+        description: 
+        inv_id: 0
+        amount: 2
+        icon: {fileID: 0}
+        inventoryType: 0
+      - id: 3
+        name: Item C
+        description: 
+        inv_id: 0
+        amount: 8
+        icon: {fileID: 0}
+        inventoryType: 0
+      subMissionDatas: []
+    - id: 2
+      name: Save your Team
+      description: prajurit musuh menyerang desa, penduduk harus di evakuasi ke tempat
+        yang lebih aman. lindungi kendaraan tim dari serangan musuh.
+      missionType: 4
+      difficulty: 0
+      isLocked: 1
+      isComplete: 0
+      rewards:
+      - id: 1
+        name: Item D
+        description: 
+        inv_id: 0
+        amount: 8
+        icon: {fileID: 0}
+        inventoryType: 0
+      - id: 2
+        name: Item B
+        description: 
+        inv_id: 0
+        amount: 2
+        icon: {fileID: 0}
+        inventoryType: 0
+      - id: 3
+        name: Item A
+        description: 
+        inv_id: 0
+        amount: 8
+        icon: {fileID: 0}
+        inventoryType: 0
+      subMissionDatas: []
+    - id: 3
+      name: Kill 'em up
+      description: semua penduduk berhasil di evakuasi. kamu sekarang bisa mengeluarkan
+        kekuatan penuhmu. bunuh semua prajurit yang telah menyerang desa
+      missionType: 5
+      difficulty: 0
+      isLocked: 1
+      isComplete: 0
+      rewards:
+      - id: 1
+        name: Item E
+        description: 
+        inv_id: 0
+        amount: 8
+        icon: {fileID: 0}
+        inventoryType: 0
+      - id: 2
+        name: Item F
+        description: 
+        inv_id: 0
+        amount: 2
+        icon: {fileID: 0}
+        inventoryType: 0
+      - id: 3
+        name: Item G
+        description: 
+        inv_id: 0
+        amount: 8
+        icon: {fileID: 0}
+        inventoryType: 0
+      subMissionDatas: []
+    - id: 4
+      name: Time to Revenge
+      description: Saatnya untuk memberikan mereka peringatan untuk tindakan mereka.
+        tanam 10 bom di area musuh di titik yang telah ditentukan
+      missionType: 6
+      difficulty: 0
+      isLocked: 1
+      isComplete: 0
+      rewards:
+      - id: 1
+        name: Item A
+        description: 
+        inv_id: 0
+        amount: 8
+        icon: {fileID: 0}
+        inventoryType: 0
+      - id: 2
+        name: Item F
+        description: 
+        inv_id: 0
+        amount: 2
+        icon: {fileID: 0}
+        inventoryType: 0
+      - id: 3
+        name: Item B
+        description: 
+        inv_id: 0
+        amount: 8
+        icon: {fileID: 0}
+        inventoryType: 0
+      subMissionDatas: []
+    - id: 5
+      name: Who is the Boss?
+      description: 'tunjukan siapa bos yang sebenarnya. bunuh komandan perang di
+        base pertahanan musuh untuk membuat prajurit musuh tunduk. lakukan dengan
+        hati-hati karena dia diajaga oleh prajuritnya. '
+      missionType: 0
+      difficulty: 0
+      isLocked: 1
+      isComplete: 0
+      rewards:
+      - id: 1
+        name: Item x
+        description: 
+        inv_id: 0
+        amount: 8
+        icon: {fileID: 0}
+        inventoryType: 0
+      - id: 2
+        name: Item D
+        description: 
+        inv_id: 0
+        amount: 2
+        icon: {fileID: 0}
+        inventoryType: 0
+      - id: 3
+        name: Item E
+        description: 
+        inv_id: 0
+        amount: 8
+        icon: {fileID: 0}
+        inventoryType: 0
+      subMissionDatas: []

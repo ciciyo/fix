@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_PFPS/Scenes/MainMenu.unity
+    guid: ff1ced84b75e3ed468ff423d40d36683
+  - enabled: 1
+    path: Assets/_PFPS/Scenes/UI_Gameplay.unity
+    guid: 751556a2e2d44af45bbec1ab5e991e0c
+  - enabled: 1
+    path: Assets/_PFPS/Scenes/Sandbox Map Game Mode Capture Flag.unity
+    guid: 0b2ca0c6b30df094da707a7ea84a7be1
+  - enabled: 1
+    path: Assets/_PFPS/Scenes/Sandbox Map Game Mode Destroy Comms Tower.unity
+    guid: 4ab3dd19a3711424888396947189f547
+  - enabled: 1
+    path: Assets/_PFPS/Scenes/Sandbox Map Game Mode Escort.unity
+    guid: 17aadc38c16155e4c8e02fe00d394b63
+  - enabled: 1
+    path: Assets/_PFPS/Scenes/Sandbox Map Game Mode Rampage.unity
+    guid: 46ae663dbc049c94ca46cba07e748198
+  - enabled: 1
+    path: Assets/_PFPS/Scenes/Sandbox Map Prototype.unity
+    guid: 25c810c0ffe0bd341a4efe64b2069df0
+  - enabled: 0
+    path: Assets/_PFPS/Scenes/Sandbox NPC.unity
+    guid: 748517276d27c09439310df018291efe
+  - enabled: 1
+    path: Assets/_PFPS/Scenes/Sandbox TPS.unity
+    guid: 3d624b00af3f41447b05a4eaad488a97
+  - enabled: 1
+    path: Assets/_PFPS/Scenes/Sandbox Map Game Mode Infiltrate Bomb.unity
+    guid: fdd3b5754df6d9449aec9d4b0ade0fda
+  - enabled: 1
+    path: Assets/_PFPS/Scenes/Sandbox Map Game Mode Destroy Item.unity
+    guid: 986f78d00ec3b044f9831ee012cbd5be
+  - enabled: 1
+    path: Assets/3D ASSET/Enviroment/Map1/Map1_Kill the boss.unity
+    guid: 65a413392e80a124fae48f5b0f386adc
+  - enabled: 1
+    path: Assets/3D ASSET/Enviroment/Map1/Map1_Rescue.unity
+    guid: bf587b63d9304bd4e92c8831f458bb9c
+  - enabled: 1
+    path: Assets/3D ASSET/Enviroment/Map1/Map1_Comms Tower.unity
+    guid: 440e2aae55a827d4fa001c2c4c6615a2
+  m_configObjects: {}

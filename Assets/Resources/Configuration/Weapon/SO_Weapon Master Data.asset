@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1114c3caf3162b8479a6c0ddf861887b, type: 3}
+  m_Name: SO_Weapon Master Data
+  m_EditorClassIdentifier: 
+  weapons:
+  - id: 1
+    name: Weapon A
+    description: 'Senjata ini adalah senapan serbu legendaris yang dikenal dengan
+      daya tahan dan kemudahan perawatannya, membuatnya populer di berbagai wilayah
+      konflik di seluruh dunia. Dirancang untuk menembakkan peluru kaliber 7.62 mm,
+      senjata ini memiliki daya tembak yang kuat, dengan laju tembakan sekitar 600
+      peluru per menit. '
+    UseType: 0
+    config: {fileID: 11400000, guid: 0ec9c82f9bcb8164884cfd3a4d97dc95, type: 2}
+  - id: 2
+    name: Weapon B
+    description: Senjata ini dirancang untuk pertempuran jarak dekat, di mana pengguna
+      harus berada dalam jangkauan fisik untuk menyerang target.
+    UseType: 1
+    config: {fileID: 11400000, guid: 0ec9c82f9bcb8164884cfd3a4d97dc95, type: 2}
+  - id: 3
+    name: Weapon C
+    description: Senjata ini dirancang untuk pertempuran jarak dekat, di mana pengguna
+      harus berada dalam jangkauan fisik untuk menyerang target.
+    UseType: 2
+    config: {fileID: 11400000, guid: 0ec9c82f9bcb8164884cfd3a4d97dc95, type: 2}

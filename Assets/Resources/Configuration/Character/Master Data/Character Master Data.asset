@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6593df56ae727f94c98b76ae20274c08, type: 3}
+  m_Name: Character Master Data
+  m_EditorClassIdentifier: 
+  characters:
+  - id: 1
+    name: Kyra
+    description: His family lived in the Citadel when Terra attacked their planet,
+      Nolea. Believing that his entire family was killed, leaving him as the sole
+      survivor, he was taken to a rebel camp at a young age, joining other orphans
+      who had lost their parents to the war. As he grew older, he decided to join
+      the fight to avenge his family. Now, he leads an elite strike force for the
+      rebel forces known as the "Reckoners."
+    icon: {fileID: 21300000, guid: e89eac1fbf05cbb44b976cf125df2739, type: 3}
+    characterType: Damage Dealer
+    type: 0
+    config: {fileID: 11400000, guid: f35bee943720fc4428afc15e8b03f080, type: 2}
+  - id: 2
+    name: Draco Orion
+    description: His father was one of Nolea's key delegates tasked with establishing
+      diplomatic relations with Terra. He came from a noble Nolean family, but during
+      Terra's first visit, the delegates, including his father, were killed before
+      his eyes. He was rescued by Meteora, who raised him to adulthood. Upon reaching
+      maturity, he chose to join the rebel forces in the war against Terra.
+    icon: {fileID: 21300000, guid: dc9e995649cc7ca488da34d73cef6ca6, type: 3}
+    characterType: Tank
+    type: 1
+    config: {fileID: 11400000, guid: 2bc8d7652a95f6f44886ee5013fa76e8, type: 2}
+  - id: 3
+    name: Ajax
+    description: "No one knows where Ajax came from or what Ajax looks like behind
+      the mask. Some say Ajax wears the mask and armor to hide the scars from countless
+      battles. Having fought in more battles than anyone else in the rebel forces,
+      Ajax is a legendary assassin and one of the most feared assets among Terra\u2019s
+      troops."
+    icon: {fileID: 21300000, guid: 0c2f39b2ecdcac3458e7846a570392e0, type: 3}
+    characterType: Damage Dealer
+    type: 0
+    config: {fileID: 11400000, guid: a1aff49ce56ee614e816940a7a999c0d, type: 2}
+  - id: 4
+    name: Meteora
+    description: "After witnessing her husband\u2019s murder and the takeover of
+      her planet by Terra\u2019s forces, Meteora now serves as the leader of the
+      rebel forces, dedicated to reclaiming her home. Her mission is to rescue the
+      remaining survivors on her planet and prevent them from being captured by Terra\u2019s
+      troops. She is the founder of *The Cove*, a safe haven for the Noleans and
+      the families of the rebel forces. Meteora has saved countless lives, including
+      Kyra and Draco, continuing to inspire many to join her fight for freedom."
+    icon: {fileID: 21300000, guid: d2b0d05984bfc864bbc41a113981fcf9, type: 3}
+    characterType: Support/Buffer
+    type: 2
+    config: {fileID: 11400000, guid: 3d3be178841fc184a902908984b2b776, type: 2}
+  - id: 5
+    name: Ara La Fleur
+    description: She is a new recruit who joined the fight to protect her family.
+      While her family is still alive, her younger brother is ill, and she believes
+      Terra's forces have the cure. Coming from a wealthy background, she has a crush
+      on Draco, whose parents were friends with hers, as both come from noble families.
+      With a funny and cheerful personality, she brings lightheartedness to the rebel
+      forces.
+    icon: {fileID: 21300000, guid: d2b0d05984bfc864bbc41a113981fcf9, type: 3}
+    characterType: Support/Healer
+    type: 2
+    config: {fileID: 11400000, guid: cc7bcb71fece2f747b33f67ed27c4ccf, type: 2}
+  - id: 6
+    name: Kallos The Titan Killer
+    description: "He is the commander of the rebel forces, known for his psychopathic
+      tendencies and often uncontrollable, brutal actions against Terra\u2019s troops.
+      Fiercely devoted to protecting the people of Nolea, he has built a legendary
+      reputation among Nolean heroes for his unmatched strength and the armor he
+      wears, originally forged from the Titans of Terra he has slain."
+    icon: {fileID: 21300000, guid: bbbdc4daf33db5c43b9c9899b18d24ea, type: 3}
+    characterType: Damage Dealer/Debuffer
+    type: 0
+    config: {fileID: 11400000, guid: 61dd10c7257af0244a1390df244d0fd0, type: 2}
